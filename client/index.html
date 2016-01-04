@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Main App</title>
+
+    <!-- CSS Libraries -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/toaster.css" rel="stylesheet">
+    <link href="css/general-css-rules.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- JavaScript Libraries -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+
+</head>
+
+<body ng-app="app">
+
+<toaster-container toaster-options="{'time-out': 3000}"></toaster-container>
+
+<div class="container-fluid" ui-view></div>
+
+<!--App JS-->
+<script src="scripts/app.js"></script>
+<!--Services-->
+<script src="scripts/services/requestService.js"></script>
+<script src="scripts/services/toasterService.js"></script>
+<!--Controllers-->
+<script src="scripts/controllers/viewController.js"></script>
+
+</body>
+
+</html>

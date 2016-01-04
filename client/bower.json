@@ -1,0 +1,15 @@
+{
+  "name": "mean-crud-app",
+  "version": "0.0.0",
+  "authors": [
+    "Arhan Shahid <arhanshahid@gmail.com>"
+  ],
+  "description": "mean-crud-app.",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-ui-router": "~0.2.15",
+    "angular-resource": "~1.4.5",
+    "bootstrap": "~3.3.5"
+  }
+}

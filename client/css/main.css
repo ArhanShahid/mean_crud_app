@@ -1,0 +1,16 @@
+/*=====================*/
+/*     CSS override   */
+/*=====================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}

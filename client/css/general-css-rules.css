@@ -1,0 +1,87 @@
+/*=====================*/
+/*       Margin        */
+/*=====================*/
+.marginTop10{
+    margin-top: 10px;
+}
+.marginTop15{
+    margin-top: 15px;
+}
+.marginTop20{
+    margin-top: 20px;
+}
+.marginTop25{
+    margin-top: 25px;
+}
+.marginTop30{
+    margin-top: 30px;
+}
+.marginTop35{
+    margin-top: 35px;
+}
+.marginTop40{
+    margin-top: 40px;
+}
+.marginTop45{
+    margin-top: 45px;
+}
+.marginTop50{
+    margin-top: 50px;
+}
+.marginTop55{
+    margin-top: 55px;
+}
+
+/*=====================*/
+/*         Text        */
+/*=====================*/
+
+.font333{
+    color: #333333;
+}
+.textAlignCenter{
+    text-align: center;
+}
+.textAlignJustify{
+    text-align: justify;
+}
+.fontWeightBold{
+    font-weight: bold;
+}
+.fontSizeMedium{
+    font-size: medium;
+}
+.fontSizeXXLarge{
+    font-size: xx-large;
+}
+.textDecorationUnderline{
+    text-decoration: underline;
+}
+.textDecorationNone{
+    text-decoration: none;
+}
+.textDecorationNone:hover{
+    text-decoration: none;
+}
+.listStyleSquare{
+    list-style: square;
+}
+/*=====================*/
+/*      Display        */
+/*=====================*/
+
+.displayNone{
+    display: none
+}
+.overflowHidden{
+    overflow: hidden;
+}
+.positionFixed{
+    position: fixed;
+}
+/*=====================*/
+/*  Width &  Height   */
+/*=====================*/
+.height-600px{
+    height: 600px;
+}

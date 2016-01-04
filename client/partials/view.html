@@ -1,0 +1,63 @@
+<div class="col-md-offset-2 col-md-8">
+
+    <a class="pull-right" ng-click="pop()">Show toasts</a>
+
+    <div ng-if="!showEdit">
+        <br/>
+        <br/>
+
+        <input type="text" class="form-control" ng-model="name.first" placeholder="Enter First Name">
+        <br/>
+
+        <input type="text"  class="form-control" ng-model="name.last" placeholder="Enter Last Name">
+        <br/>
+
+        <input type="button" class="btn btn-default" ng-click="save(name)" value="Save">
+
+        <br/>
+        <br/>
+    </div>
+    <div ng-if="showEdit">
+        <br/>
+        <br/>
+
+        <input type="text" class="form-control" ng-model="editname.first">
+        <br/>
+
+        <input type="text"  class="form-control" ng-model="editname.last">
+        <br/>
+        <input type="button" class="btn btn-default" value="update" ng-click="edit(editname)">
+
+        <br/>
+        <br/>
+    </div>
+
+
+    <table class="table">
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Options</th>
+        </tr>
+        <tr ng-repeat="name in list">
+            <td>
+                {{name._id}}
+            </td>
+            <td>
+                {{name.f_name}}
+            </td>
+            <td>
+                {{name.l_name}}
+            </td>
+            <td>
+                <input type="button" class="btn btn-info btn-xs" value="edit"
+                       ng-if="!showEdit"
+                       ng-click="enableEdit(name)">
+                <input type="button" class="btn btn-danger btn-xs" value="delete" ng-click="delete(name)">
+            </td>
+        </tr>
+
+
+    </table>
+</div>
